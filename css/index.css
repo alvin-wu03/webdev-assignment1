@@ -1,5 +1,23 @@
 body {
   font-family: Gill Sans, sans-serif;
-  background-color: salmon;
+  background-color: skyblue;
   text-align: center;
+}
+
+#landings {
+  margin: auto auto;
+}
+
+#landings tr td {
+  padding: 0px 10px;
+  font-size: large;
+}
+
+.link a {
+  color: black;
+  text-decoration: none;
+}
+
+.link a:hover {
+  color: white;
 }
