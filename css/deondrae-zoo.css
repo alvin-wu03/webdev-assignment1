@@ -1,16 +1,16 @@
 body {
-  font-family: Courier New;
-  font-size: large;
-  color: white;
-  background-color: teal;
+  font-family: Gill Sans, sans-serif;
+  background-color: salmon;
   text-align: center;
-}
-
-.robin-text{
   align-items: center;
   justify-content: center;
-  font-family: Courier New;
-  font-size: 18px;
+}
+
+.zoo-items{
+  display:  inline-block;
+  list-style: none;
+  columns: 1;
+  font-size: 28px;
 }
 
 .link a {
