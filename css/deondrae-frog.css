@@ -1,0 +1,24 @@
+body{
+    background-color: rgb(50, 189, 50);
+    text-align: center;
+}
+
+.frog-img{
+    width: 70%;
+}
+
+.frog-text{
+    align-items: center;
+    justify-content: center;
+    font-family: Courier New;
+    font-size: 18px;
+}
+
+.link a {
+    color: black;
+    text-decoration: none;
+  }
+  
+  .link a:hover {
+    color: white;
+  }
