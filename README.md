@@ -9,4 +9,4 @@ This repository is for Assignment 1 - Zoo
 -Alvin Wu (alvin-wu03)  
 -Deondrae Francis (DFLotus)  
 -Daniel Maxime (Danmaxime)  
--Xing Chen (Danmaxime)  
+-Xing Chen (XChen601)  
