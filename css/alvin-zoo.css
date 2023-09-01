@@ -1,23 +1,23 @@
 body {
-    font-family: Gill Sans, sans-serif;
-    background-color: lightgreen;
-    text-align: center;
-  }
+  font-family: Gill Sans, sans-serif;
+  background-color: lightgreen;
+  text-align: center;
+}
 
-  #animals {
-    margin: auto auto;
-  }
+#animals {
+  margin: auto auto;
+}
 
-  #animals tr td {
-    padding: 0px 10px;
-    font-size: large;
-  }
-  
-  .link a {
-    color: black;
-    text-decoration: none;
-  }
-  
-  .link a:hover {
-    color: white;
-  }
+#animals tr td {
+  padding: 0px 10px;
+  font-size: large;
+}
+
+.link a {
+  color: black;
+  text-decoration: none;
+}
+
+.link a:hover {
+  color: white;
+}
