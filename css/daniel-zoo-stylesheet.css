@@ -1,0 +1,105 @@
+body {
+    font-family: Arial, sans-serif;
+}
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+nav table {
+    margin: 0 auto;
+    padding: 0;
+}
+nav td {
+    text-align: center;
+}
+nav td a {
+    display: block;
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+nav img {
+    width: 200px;
+    border: 5px solid #4CAF50;
+}
+nav img:hover {
+    transform: scale(1.1);
+}
+section {
+    padding: 20px;
+}
+
+a:link {
+    color: blue;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:visited {
+    color: pink;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: red;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+
+footer {
+    background-color: #4CAF50;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Add media query for screens smaller than 600px */
+@media screen and (max-width: 600px) {
+      nav table {
+        display:flex; 
+        flex-wrap: wrap;
+        justify-content: center;
+        width:auto; 
+        margin:auto; 
+        border-spacing:auto; 
+        table-layout:auto; 
+        empty-cells:auto; 
+        caption-side:auto; 
+        direction:auto; 
+        font-size:auto; 
+        font-weight:auto; 
+        font-style:auto; 
+        font-family:auto; 
+        text-align:center; 
+        white-space:normal; 
+        word-spacing:normal; 
+        letter-spacing:normal; 
+        line-height:normal; 
+        text-indent:normal; 
+    }
+      nav td {
+        display:block;
+        text-align: center;}
+      nav td a {display:block;}
+      nav img {width:auto;}
+}
+
+.dark-mode {
+    background-color: #333;
+    color: #fff;
+}
+
+.dark-mode header {
+    background-color: #222;
+}
+
+.dark-mode nav img {
+    border-color: #222;
+}
+
+.dark-mode footer {
+    background-color: #222;
+}

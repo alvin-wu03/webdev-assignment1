@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Goat Gorilla - Daniel's Zoo</title>
+    <link rel="stylesheet" href="../../../css/daniel-zoo-animal-stylesheet.css">
+</head>
+<body>
+    <header>
+        <h1>Goat Gorilla - Daniel's Zoo</h1>
+    </header>
+    <nav>
+        <table>
+            <tr>
+                <td><img src="../../../img/goat-gorilla.jpg" alt="Goat Gorilla"><br>Goat Gorilla</td>
+            </tr>
+        </table>
+    </nav>
+    <section>
+        <h2>About the Goat Gorilla</h2>
+        <!--Paragraph taken from https://avatar.fandom.com/wiki/Goat_gorilla-->
+        <p>The goat gorilla is a large animal which bears a similar build to the gorilla, while exhibiting physical attributes akin to a goat. 
+            It is generally uniform in terms of coloration, apart from small sections of its body which appear in different pigmentations. 
+            Goat gorillas are only known to have either a murky white or a dark red hide, with brown features appearing in both cases. 
+            The goat gorilla's face is relatively intimidating, composed of large green eyes, a striking nose, and a mouth with two tusks 
+            protruding upward from the mandible. Two ivory horns extend from the creature's head, with two large ears dangling on either side,
+             and a single tuft of brown fur grows from the center of its back. Most wild goat gorillas appear dark red in coloration.</p>
+        <p>For even more information on the goat gorilla <a href="https://avatar.fandom.com/wiki/Goat_gorilla">click here</a></p>
+    </section>
+    <p><a href="../daniel-zoo.html"><img src="../../../img/home-arrow.png" alt="Home button"></a></p>
+    <footer>
+        Bored of my zoo? Go check out these others: 
+        <a href="../../alvin-zoo/alvin-zoo.html">Alvin's Zoo</a> 
+        <a href="../../deondrae-zoo/deondrae-zoo.html">Deondrae's Zoo</a> 
+        <a href="../../xing-zoo/xing-zoo.html">Xing's Zoo</a>
+        <br><label for="dark-mode-toggle">&nbsp&nbsp&nbspDark Mode</label>
+        <input type="checkbox" id="dark-mode-toggle">
+        <script>
+            const toggle = document.querySelector('#dark-mode-toggle');
+            toggle.addEventListener('change', function() {
+                document.body.classList.toggle('dark-mode');
+            });
+        </script>
+    </footer>
+</body>
+</html>
+
