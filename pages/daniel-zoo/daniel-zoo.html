@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Daniel's Zoo</title>
+    <link rel="stylesheet" href="../../css/daniel-zoo-stylesheet.css">
+</head>
+<body>
+    <header>
+        <h1>Daniel's Zoo Directory</h1>
+    </header>
+    <nav>
+        <table>
+            <tr>
+                <td><a href="zoo-animals/elephant-koi.html"><img src="../../img/elephant-koi.jpg" alt="Elephant Koi"><br>Elephant Koi</a></td>
+                <td><a href="zoo-animals/flying-bison.html"><img src="../../img/flying-bison.jpg" alt="Flying Bison"><br>Flying Bison</a></td>
+                <td><a href="zoo-animals/goat-gorilla.html"><img src="../../img/goat-gorilla.jpg" alt="Goat Gorilla"><br>Goat Gorilla</a></td>
+                <td><a href="zoo-animals/otter-penguin.html"><img src="../../img/otter-penguin.jpg" alt="Otter Penguin"><br>Otter Penguin</a></td>
+            </tr>
+        </table>
+    </nav>
+    <section>
+        <h2>Welcome to my Zoo!</h2>
+        <p>Our zoo is home to many different animals from all around the world, and may be some more fantastical ones as well. We have elephant koi, flying bison, goat gorillas, otter penguins, and many more to come! Come visit us and see all of our amazing animals.</p>
+    </section>
+
+    <footer>
+        Bored of my zoo? Go check out these others: 
+        <a href="../../index.html">Main page</a> 
+        <a href="../alvin-zoo/alvin-zoo.html">Alvin's Zoo</a> 
+        <a href="../deondrae-zoo/deondrae-zoo.html">Deondrae's Zoo</a> 
+        <a href="../xing-zoo/xing-zoo.html">Xing's Zoo</a>
+        <br><label for="dark-mode-toggle">&nbsp&nbsp&nbspDark Mode</label>
+        <input type="checkbox" id="dark-mode-toggle">
+        <script>
+            const toggle = document.querySelector('#dark-mode-toggle');
+            toggle.addEventListener('change', function() {
+                document.body.classList.toggle('dark-mode');
+            });
+        </script>
+    </footer>
+</body>
+</html>
+
