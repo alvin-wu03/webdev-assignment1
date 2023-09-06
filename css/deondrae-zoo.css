@@ -1,23 +1,78 @@
 body {
   font-family: Gill Sans, sans-serif;
-  background-color: salmon;
-  text-align: center;
-  align-items: center;
+  background-image: url("/img/wp9243544.jpg");
+  background-size:cover;
   justify-content: center;
+  align-items: center;
+  text-align: center;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+.title-text{
+  font-size: 60px;
+  color: whitesmoke;
+  text-shadow: 2px 2px black;
 }
 
 .zoo-items{
-  display:  inline-block;
+  position: relative;
+  margin-top: 10px;
+  width: 100vw;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
   list-style: none;
-  columns: 1;
-  font-size: 28px;
 }
 
-.link a {
-  color: black;
-  text-decoration: none;
+.zoo-items li{
+  text-align: center;
+  margin: 20px;
 }
 
-.link a:hover {
-  color: white;
+.zoan-fruit{
+  border-radius: 15px;
+  display: block;
+  width: 300px;
+  height: 340px;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+
+.zoan-fruit:hover{
+  transform: scale(1.1);
+}
+
+.fruit-info{
+  font-size: 30px;
+  color: rgb(172, 26, 26);
+  text-shadow: 2px 2px black;
+  margin-top: 20px;
+}
+
+.menu{
+  background-color: red;
+}
+
+.nav-options{
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  justify-content: center;
+  align-content: center;
+}
+
+.nav-options li{
+  font-size: 30px;
+  color: whitesmoke;
+  text-shadow: 2px 2px black;
+  padding-left: 25px;
+  cursor: pointer;
+}
+
+.nav-options li:hover{
+  color: brown;
+  transform: scale(.9);
 }
