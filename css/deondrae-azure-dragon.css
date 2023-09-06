@@ -1,18 +1,35 @@
 body{
-    background-color: orange;
+    background-color: rgb(71, 203, 255);
     text-align: center;
 }
 
-.lion-img{
-    width: 70%;
+.azure-dragon{
+    width: 50%;
+    margin: 20px auto;
+    border: 5px solid black; 
+    border-radius: 15px; 
+    overflow: hidden;
 }
 
-.lion-text{
+.azure-dragon-text{
+    text-align: center; 
     align-items: center;
     justify-content: center;
     font-family: Courier New;
+    margin: 0 auto;
     font-size: 18px;
+    width: 50%;
+    color: white;
+    border: 2px solid black; 
+    padding: 20px; 
+    border-radius: 15px; 
+    background-color: rgba(102, 98, 98, 0.699);
 }
+
+.link-text{
+    font-size: 25px;
+}
+
 
 .link a {
     color: black;
